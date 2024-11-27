@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form with All Input Types</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-container">
+    <h1>Complete Input Form</h1>
+    <form>
+      <!-- Text Input -->
+      <label for="First Name">First Name:</label>
+      <input type="text" id="text" name="text" placeholder="Enter first name">
+
+      <label for="Last Name">Last Name:</label>
+      <input type="text" id="text1" name="text" placeholder="Enter last name">
+
+      <!-- Password -->
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Enter password">
+
+      <!-- Email -->
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter email">
+
+      <!-- Number -->
+      <label for="number">Number:</label>
+      <input type="number" id="number" name="number" placeholder="Enter number">
+
+      <!-- Date -->
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date">
+
+      <!-- Time -->
+      <label for="time">Time:</label>
+      <input type="time" id="time" name="time">
+
+      <!-- URL -->
+      <label for="url">Website:</label>
+      <input type="url" id="url" name="url" placeholder="Enter website URL">
+
+      <!-- File -->
+      <label for="file">File:</label>
+      <input type="file" id="file" name="file">
+
+      <!-- Color -->
+      <label for="color">Color:</label>
+      <input type="color" id="color" name="color">
+
+      <!-- Range -->
+      <label for="range">Range:</label>
+      <input type="range" id="range" name="range" min="0" max="100">
+
+      <!-- Checkbox -->
+      <label>
+        <input type="checkbox" name="checkbox" value="agree"> Agree to Terms
+      </label>
+
+      <!-- Radio Buttons -->
+      <p>Gender:</p>
+      <label>
+        <input type="radio" name="gender" value="male"> Male
+      </label>
+      <label>
+        <input type="radio" name="gender" value="female"> Female
+      </label>
+
+      <!-- Dropdown -->
+      <label for="dropdown">Select an option:</label>
+      <select id="dropdown" name="dropdown">
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+        <option value="option3">Option 3</option>
+      </select>
+
+      <!-- Textarea -->
+      <label for="textarea">Message:</label>
+      <textarea id="textarea" name="textarea" rows="4" placeholder="Enter your message"></textarea>
+
+      <!-- Submit Button -->
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>

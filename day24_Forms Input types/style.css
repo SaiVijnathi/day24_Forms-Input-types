@@ -1,0 +1,93 @@
+/* General Reset */
+body, h1, label, input, textarea, select, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f4f4f9;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: auto; 
+  }
+  
+  .form-container {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    overflow-y: auto; 
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+  }
+  
+  label {
+    margin: 10px 0 5px;
+    color: #555;
+    font-weight: bold;
+  }
+  
+  input, textarea, select, button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+  }
+  
+  input[type="checkbox"], input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  input[type="color"], input[type="range"] {
+    padding: 0;
+    height: 40px;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  button {
+    background: #007BFF;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    margin-top: 15px;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  input:focus, textarea:focus, select:focus {
+    border-color: #007BFF;
+  }
+  
+  @media (max-height: 800px) {
+    body {
+      align-items: flex-start;
+    }
+    .form-container {
+      margin-top: 20px; 
+    }
+  }
+  
